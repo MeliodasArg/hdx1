@@ -1,2 +1,1 @@
-# hdx1
-Proyecto para crear un pagina
+# proyecto-4.2.c.s.info

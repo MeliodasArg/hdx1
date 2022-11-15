@@ -1,0 +1,106 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url("img/2.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+div
+{
+  text-align: left;
+color: #fff;
+background-color: #000;
+}
+
+div{
+  width:50%
+}
+
+h3{
+
+  text-align: left;
+color: #fff;
+background-color: #000;
+}
+li{
+
+  text-align: left;
+color: #fff;
+background-color: #000;
+}
+
+
+#nav {
+    background-color: Teal;
+    height: 40px;
+    padding: 0 2%;
+}
+section {
+    width: 100%;
+    background-color: #fff;
+	  position:relative;
+    min-height: 480px;
+
+
+/* MENU HORIZONTAL */
+.menu, .menu ul, .menu li, .menu a {
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+}
+.menu ul{
+	padding:2px 0 3px;
+}
+.menu {
+	display: flex;
+}
+.menu li {
+	list-style: none;
+	z-index:91;
+}
+.menu a {
+	height:40px;
+	display: block;
+	padding:13px 12px;
+	background-color:Teal;
+	text-decoration: none;
+	color:#fff;
+	text-shadow: 0px 0px 3px #000;
+	font-size:0.813rem;/*13px;*/
+	transition:background 0.15s ease-in-out;
+}
+.menu a:hover {
+	background-color:cadetblue;
+}
+.menu li ul {
+	opacity:0;
+	visibility:hidden;
+    position: absolute;
+	border-top:1px solid #DAE0E6;
+	transition: 0.1s ease-in-out;
+	background:Teal;
+}
+.menu li a:hover + ul, .menu li ul:hover {
+	visibility:visible;
+	opacity:1;
+}
+.menu li ul li a {
+	margin-top:1px;
+	height:34px;
+	font-size:0.750rem;/*12px;*/
+	padding:10px 10px 13px;
+}
+.menu li ul li {
+	padding:0 11px;
+}
+.stop {
+	cursor:default;
+}
+.stop span{
+	padding:0 6px;
+}
+
