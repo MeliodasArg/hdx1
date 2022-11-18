@@ -20,10 +20,14 @@ div{
 }
 
 h3{
-
-  text-align: left;
-color: #fff;
-background-color: #000;
+margin: 20px 100px;
+display: inline-block;
+background-color: green;
+padding: 50px 50px;
+width: 500px;
+border-style:solid;
+border-color: rgb(0, 0, 0);
+border-radius: 40px;
 }
 li{
 
@@ -103,4 +107,3 @@ section {
 .stop span{
 	padding:0 6px;
 }
-
